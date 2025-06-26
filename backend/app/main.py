@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from upload import router as upload_router
-from database import Base, engine
+from models import Base, engine
 
 print("✅ Running actual main.py")
 
